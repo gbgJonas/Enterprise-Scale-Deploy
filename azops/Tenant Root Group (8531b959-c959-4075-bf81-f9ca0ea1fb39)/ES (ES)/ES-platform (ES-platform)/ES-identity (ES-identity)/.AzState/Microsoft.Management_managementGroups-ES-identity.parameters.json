@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/ES-identity",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "ES-identity",
+        "TenantId": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "DisplayName": "ES-identity",
+        "UpdatedTime": "2020-11-25T15:48:58.7574231Z",
+        "UpdatedBy": "2397e9b6-1f81-4173-a3b4-4522742985de",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/ES-platform",
+        "ParentName": "ES-platform",
+        "ParentDisplayName": "ES-platform",
+        "Children": null
+      }
+    }
+  }
+}

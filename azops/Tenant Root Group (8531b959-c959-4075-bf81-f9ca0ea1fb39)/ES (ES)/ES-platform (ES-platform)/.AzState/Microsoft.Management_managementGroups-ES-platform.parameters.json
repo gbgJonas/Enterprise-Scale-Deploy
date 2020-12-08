@@ -1,0 +1,43 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/ES-platform",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "ES-platform",
+        "TenantId": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "DisplayName": "ES-platform",
+        "UpdatedTime": "2020-11-25T15:48:22.3484409Z",
+        "UpdatedBy": "2397e9b6-1f81-4173-a3b4-4522742985de",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/ES",
+        "ParentName": "ES",
+        "ParentDisplayName": "ES",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-management",
+            "Name": "ES-management",
+            "DisplayName": "ES-management",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-connectivity",
+            "Name": "ES-connectivity",
+            "DisplayName": "ES-connectivity",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-identity",
+            "Name": "ES-identity",
+            "DisplayName": "ES-identity",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

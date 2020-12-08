@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/ES",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "ES",
+        "TenantId": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "DisplayName": "ES",
+        "UpdatedTime": "2020-11-25T15:47:36.7807638Z",
+        "UpdatedBy": "2397e9b6-1f81-4173-a3b4-4522742985de",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "ParentName": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-sandboxes",
+            "Name": "ES-sandboxes",
+            "DisplayName": "ES-sandboxes",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-platform",
+            "Name": "ES-platform",
+            "DisplayName": "ES-platform",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-landingzones",
+            "Name": "ES-landingzones",
+            "DisplayName": "ES-landingzones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-decommissioned",
+            "Name": "ES-decommissioned",
+            "DisplayName": "ES-decommissioned",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

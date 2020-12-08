@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "86a56d27ea1f4758991211bb",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES-online/providers/Microsoft.Authorization/policyAssignments/86a56d27ea1f4758991211bb",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Append-KV-SoftDelete",
+          "NotScopes": null,
+          "Parameters": {},
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyDefinitions/Append-KV-SoftDelete",
+          "Scope": "/providers/Microsoft.Management/managementGroups/ES-online"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES-online/providers/Microsoft.Authorization/policyAssignments/86a56d27ea1f4758991211bb",
+        "ResourceName": "86a56d27ea1f4758991211bb",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

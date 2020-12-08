@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "TenantId": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+        "DisplayName": "Tenant Root Group",
+        "UpdatedTime": "2020-11-25T13:43:51.6884832Z",
+        "UpdatedBy": "Tenant Backfill Job",
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/JonasES",
+            "Name": "JonasES",
+            "DisplayName": "Root",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES",
+            "Name": "ES",
+            "DisplayName": "ES",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

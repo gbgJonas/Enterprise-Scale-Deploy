@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "12e341a9-1cc8-4bb1-99e8-fb29fdfc322a",
+          "tenantId": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "Enforce-SQL-Encryption",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES-landingzones/providers/Microsoft.Authorization/policyAssignments/Enforce-SQL-Encryption",
+        "Properties": {
+          "Description": "Deploy-SQL-Security",
+          "DisplayName": "Deploy-SQL-Security",
+          "NotScopes": null,
+          "Parameters": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/86a912f6-9a06-4e26-b447-11b16ba8659f",
+          "Scope": "/providers/Microsoft.Management/managementGroups/ES-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES-landingzones/providers/Microsoft.Authorization/policyAssignments/Enforce-SQL-Encryption",
+        "ResourceName": "Enforce-SQL-Encryption",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}
