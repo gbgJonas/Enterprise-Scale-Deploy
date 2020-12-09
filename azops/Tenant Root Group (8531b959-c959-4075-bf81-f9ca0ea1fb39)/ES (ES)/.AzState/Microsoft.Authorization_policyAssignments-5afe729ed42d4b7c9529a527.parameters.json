@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "9de83c39-6a4f-43d2-ac18-99231f580ea8",
+          "tenantId": "8531b959-c959-4075-bf81-f9ca0ea1fb39",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "5afe729ed42d4b7c9529a527",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/5afe729ed42d4b7c9529a527",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Deploy-Diag-LogAnalytics",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/577462dc-06d3-40a4-8019-571adf1fd21f/resourcegroups/es-mgmt/providers/microsoft.operationalinsights/workspaces/es-la-577462dc-06d3-40a4-8019-571adf1fd21f"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Diag-LogAnalytics",
+          "Scope": "/providers/Microsoft.Management/managementGroups/ES"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/5afe729ed42d4b7c9529a527",
+        "ResourceName": "5afe729ed42d4b7c9529a527",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}
